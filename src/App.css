@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Sriracha&display=swap');
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sriracha', cursive;
+    background-color: #0059ff;
+}
+.App {
+    min-height: 100vh;
+    display: flex;
+}
+#quote-box {
+    background: white;
+    width: 100%;
+    margin: auto;
+    max-width: 500px;
+    min-height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1rem 1rem 1rem;
+}
+#text {
+    font-size: 25px;
+    margin-bottom: 20px;
+    word-wrap: normal;
+}
+#author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+}
+#buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+    font-weight: bold;
+    
+}
+.btn:hover {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    opacity: 0.9;
+    box-shadow: 10px 10px 5px black;
+}
+.twit:hover {
+    opacity: 0.8;
+    transition: ease-in;
+    transform: rotate(-45deg);
+}
